@@ -1,4 +1,4 @@
-/* Cascading Style Sheet for IE4 build 1008+ */
+@import url('bootstrap/css/bootstrap.css');
 
 body		{ font-size: 95%; 
 			
