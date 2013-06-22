@@ -1,26 +1,2 @@
 @import url('../bootstrap/css/bootstrap.css');
 
-.menu {  font-size: 9pt; font-style: normal; line-height: normal; color: #663300; font-weight: lighter; font-variant: normal; clip: rect(   )}
-a.menu1       {font: 9pt Arial; color:"#darkblue"; text-decoration:none;}
-a.menu1:hover {font: 9pt Arial; color:"#CC6600"; text-decoration:underline;}
-
-a.menu2       {font: 10pt Arial; color:"#336699"; text-decoration:none;}
-a.menu2:hover {font: 10pt Arial; color:"#990000"; text-decoration:underline;}
-
-a.menu3       {font: 9pt Arial; color:"#000000"; text-decoration:none;}
-a.menu3:hover {font: 9pt Arial; color:"#CC6600"; text-decoration:underline;}
-
-.text {font-family: "·s²Ó©úÅé"; font-size: 10pt; line-height: 20pt;}
-.ununderline {  text-decoration: none}
-
-a:link { color:"#006699";}
-a:visited { color:"#006699";}
-a:hover { color:"#CC6600";}
-
-body {
-	background-color: "#FEFAEC";
-	padding: 0px;
-	margin: 0px;
-	text:"#000000";
-	background-attachment:fixed;
-}
