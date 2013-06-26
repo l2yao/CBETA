@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
+import android.webkit.WebView;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -52,7 +53,7 @@ public class FullscreenActivity extends Activity {
 		setContentView(R.layout.activity_fullscreen);
 
 		final View controlsView = findViewById(R.id.fullscreen_content_controls);
-		final View contentView = findViewById(R.id.fullscreen_content);
+		final WebView contentView = (WebView)findViewById(R.id.webView1);
 
 		// Set up an instance of SystemUiHider to control the system UI for
 		// this activity.
@@ -114,8 +115,7 @@ public class FullscreenActivity extends Activity {
 		// Upon interacting with UI controls, delay any scheduled hide()
 		// operations to prevent the jarring behavior of controls going away
 		// while interacting with the UI.
-		findViewById(R.id.dummy_button).setOnTouchListener(
-				mDelayHideTouchListener);
+		contentView.loadUrl("file:///android_asset/html/index/index.htm");
 	}
 
 	@Override
