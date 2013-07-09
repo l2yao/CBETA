@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
 		WebView webview = (WebView)this.findViewById(R.id.webView1);
 		webview.setClickable(true);
 		webview.getSettings().setJavaScriptEnabled(true);
-		webview.loadUrl("file:///android_asset/html/dist/index.html");
+		webview.loadUrl("file:///android_asset/html/index.htm");
 	}
 
 	@Override
