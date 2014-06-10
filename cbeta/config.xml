@@ -7,6 +7,6 @@
     <author email="yl1984108@gmail.com" href="http://l2yao.github.io">
         Long Yao
     </author>
-    <content src="index.html" />
+    <content src="cbeta/tripitaka/mobile/index.html" />
     <access origin="*" />
 </widget>
