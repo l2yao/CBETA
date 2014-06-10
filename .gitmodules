@@ -1,3 +1,6 @@
 [submodule "android/assets/html"]
 	path = android/assets/html
 	url = git@github.com:l2yao/CBETA-web.git
+[submodule "cbeta/www"]
+	path = cbeta/www
+	url = https://github.com/l2yao/CBETA-web.git
